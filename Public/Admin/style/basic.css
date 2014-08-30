@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+body,p,form,h1,h2,h3,ul,li,dl,dt,dd,input,img{
+	margin:0;
+	padding:0;
+}
+body{
+	font-size:12px;
+}
+img{
+	border:none;
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+.error{
+	color:red;
+}
+.red{
+	color:red;
+}
+.green{
+	color:green;
+}
+
+h2,dl.form{
+	font-size:12px;
+	border:1px solid #BBDDE5;
+	padding:10px;
+	margin:10px;
+	background:#F4FAFB;
+	color:#335B64;
+}
+h2 a{
+	float:right;
+	background:url(../images/add.gif) no-repeat left center;
+	font-size:12px;
+	padding:0 0 0 20px;
+	color:#335B64;	
+}
+h2 a:hover{
+	color:#f60;
+	text-decoration:underline;
+}
+a:hover{
+	text-decoration:underline;
+}
+div.list{
+	padding:0 10px;
+}
