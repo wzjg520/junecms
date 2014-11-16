@@ -4,30 +4,30 @@
 <meta charset="UTF-8">
 <title>添加栏目</title>
 </head>
-<script type="text/javascript" src="/web/junecms/Public/Admin/easyui/jquery.min.js"></script>
-<script type="text/javascript" src="/web/junecms/Public/Admin/easyui/jquery.easyui.min.js"></script>
-<link rel="stylesheet" type="text/css" href="/web/junecms/Public/Admin/easyui/locale/easyui-lang-zh_CN.js"> 
-<link rel="stylesheet" type="text/css" href="/web/junecms/Public/Admin/easyui/themes/default/easyui.css">   
-<link rel="stylesheet" type="text/css" href="/web/junecms/Public/Admin/easyui/themes/icon.css">
-<link rel="stylesheet" type="text/css" href="/web/junecms/Public/Admin/style/basic.css">
-<link rel="stylesheet" type="text/css" href="/web/junecms/Public/Admin/style/edit.css">
-<link rel="stylesheet" type="text/css" href="/web/junecms/Public/Admin/style/article.css">
-<link rel="stylesheet" type="text/css" href="/web/junecms/Public/Admin/style/spectrum.css">
-<script type="text/javascript" src="/web/junecms/Public/Admin/js/jquery.validate.js"></script>
-<script type="text/javascript" src="/web/junecms/Public/Admin/js/jquery.form.js"></script>
-<script type="text/javascript" src="/web/junecms/Public/Admin//ckeditor/ckeditor.js"></script>
-<script type="text/javascript" src="/web/junecms/Public/Admin/js/article_edit.js"></script>
-<script type="text/javascript" src="/web/junecms/Public/Admin/js/edit.js"></script>
-<script type="text/javascript" src="/web/junecms/Public/Admin/js/spectrum.js"></script>
+<script type="text/javascript" src="/junecms/Public/Admin/easyui/jquery.min.js"></script>
+<script type="text/javascript" src="/junecms/Public/Admin/easyui/jquery.easyui.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/junecms/Public/Admin/easyui/locale/easyui-lang-zh_CN.js"> 
+<link rel="stylesheet" type="text/css" href="/junecms/Public/Admin/easyui/themes/default/easyui.css">   
+<link rel="stylesheet" type="text/css" href="/junecms/Public/Admin/easyui/themes/icon.css">
+<link rel="stylesheet" type="text/css" href="/junecms/Public/Admin/style/basic.css">
+<link rel="stylesheet" type="text/css" href="/junecms/Public/Admin/style/edit.css">
+<link rel="stylesheet" type="text/css" href="/junecms/Public/Admin/style/article.css">
+<link rel="stylesheet" type="text/css" href="/junecms/Public/Admin/style/spectrum.css">
+<script type="text/javascript" src="/junecms/Public/Admin/js/jquery.validate.js"></script>
+<script type="text/javascript" src="/junecms/Public/Admin/js/jquery.form.js"></script>
+<script type="text/javascript" src="/junecms/Public/Admin//ckeditor/ckeditor.js"></script>
+<script type="text/javascript" src="/junecms/Public/Admin/js/article_edit.js"></script>
+<script type="text/javascript" src="/junecms/Public/Admin/js/edit.js"></script>
+<script type="text/javascript" src="/junecms/Public/Admin/js/spectrum.js"></script>
 <script type="text/javascript">
 	var	THINKPHP={
-		module:'/web/junecms/Admin',
+		module:'/junecms/Admin',
 		id:"<?php echo ($updateNav["id"]); ?>",
 	}
 	$(function(){		
 		if($('#thumbsrc').val() !=''){
 			var thumbsrc=$('#thumbsrc').val()
-			$('#pic_show').show().html('<img src="/web/junecms/'+thumbsrc+'" alt="缩略图"/>');
+			$('#pic_show').show().html('<img src="/junecms/'+thumbsrc+'" alt="缩略图"/>');
 		}
 		$("#picUpload").wrap("<form id='myupload' action='<?php echo U('Public/fileUpload', array('tb' => 2));?>' method='post' enctype='multipart/form-data'></form>");
 		$("#picUpload").change(function(){
@@ -40,7 +40,7 @@
 					$('.loading').html('上传图片');
 					if(typeof data == 'string'){
 						$('#thumbsrc').val(data);
-						$('#pic_show').show().html('<img src="/web/junecms/'+data+'" alt="缩略图"/>');
+						$('#pic_show').show().html('<img src="/junecms/'+data+'" alt="缩略图"/>');
 						$.messager.show({
 							title:'恭喜：',
 							msg:'图片上传成功',
@@ -57,7 +57,7 @@
 		$('#win ul li img').click(function(){
 			var data=$(this).attr('title')	
 			$('#thumbsrc').val(data);
-			$('#pic_show').show().html('<img src="/web/junecms/'+data+'" alt="缩略图"/>');
+			$('#pic_show').show().html('<img src="/junecms/'+data+'" alt="缩略图"/>');
 		})
 	})
 	
@@ -136,7 +136,7 @@
 <div id="win">
 	<?php if(is_array($arrDir)): foreach($arrDir as $k=>$vo): ?><h3><?php echo ($k); ?></h3>
 		 <ul>
-		 	<?php if(is_array($vo)): foreach($vo as $key=>$val): ?><li><img src="/web/junecms/Uploads/<?php echo ($k); ?>/<?php echo ($val); ?>" title="/Uploads/<?php echo ($k); ?>/<?php echo ($val); ?>"/></li><?php endforeach; endif; ?>
+		 	<?php if(is_array($vo)): foreach($vo as $key=>$val): ?><li><img src="/junecms/Uploads/<?php echo ($k); ?>/<?php echo ($val); ?>" title="/Uploads/<?php echo ($k); ?>/<?php echo ($val); ?>"/></li><?php endforeach; endif; ?>
 		 </ul><?php endforeach; endif; ?>
 	
 </div>

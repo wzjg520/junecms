@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <title>文档列表</title>
-<script type="text/javascript" src="/web/junecms/Public/Admin/easyui/jquery.min.js"></script>
-<script type="text/javascript" src="/web/junecms/Public/Admin/easyui/jquery.easyui.min.js"></script>
-<link rel="stylesheet" type="text/css" href="/web/junecms/Public/Admin/easyui/locale/easyui-lang-zh_CN.js"> 
-<link rel="stylesheet" type="text/css" href="/web/junecms/Public/Admin/easyui/themes/default/easyui.css">   
-<link rel="stylesheet" type="text/css" href="/web/junecms/Public/Admin/easyui/themes/icon.css">
-<link rel="stylesheet" type="text/css" href="/web/junecms/Public/Admin/style/basic.css"> 
-<script type="text/javascript" src="/web/junecms/Public/Admin/js/article.js"></script>
+<script type="text/javascript" src="/junecms/Public/Admin/easyui/jquery.min.js"></script>
+<script type="text/javascript" src="/junecms/Public/Admin/easyui/jquery.easyui.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/junecms/Public/Admin/easyui/locale/easyui-lang-zh_CN.js"> 
+<link rel="stylesheet" type="text/css" href="/junecms/Public/Admin/easyui/themes/default/easyui.css">   
+<link rel="stylesheet" type="text/css" href="/junecms/Public/Admin/easyui/themes/icon.css">
+<link rel="stylesheet" type="text/css" href="/junecms/Public/Admin/style/basic.css"> 
+<script type="text/javascript" src="/junecms/Public/Admin/js/article.js"></script>
 </head>
 <body>
 <h2>文档 -- 文档列表</h2>

@@ -3,17 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <title>自定义导航</title>
-<script type="text/javascript" src="/web/junecms/Public/Admin/easyui/jquery.min.js"></script>
-<script type="text/javascript" src="/web/junecms/Public/Admin/easyui/jquery.easyui.min.js"></script>
-<link rel="stylesheet" type="text/css" href="/web/junecms/Public/Admin/easyui/locale/easyui-lang-zh_CN.js"> 
-<link rel="stylesheet" type="text/css" href="/web/junecms/Public/Admin/easyui/themes/default/easyui.css">   
-<link rel="stylesheet" type="text/css" href="/web/junecms/Public/Admin/easyui/themes/icon.css">
-<link rel="stylesheet" type="text/css" href="/web/junecms/Public/Admin/style/basic.css"> 
-<link rel="stylesheet" type="text/css" href="/web/junecms/Public/Admin/style/admin.css">
-<script type="text/javascript" src="/web/junecms/Public/Admin/js/nav.js"></script>
+<script type="text/javascript" src="/junecms/Public/Admin/easyui/jquery.min.js"></script>
+<script type="text/javascript" src="/junecms/Public/Admin/easyui/jquery.easyui.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/junecms/Public/Admin/easyui/locale/easyui-lang-zh_CN.js"> 
+<link rel="stylesheet" type="text/css" href="/junecms/Public/Admin/easyui/themes/default/easyui.css">   
+<link rel="stylesheet" type="text/css" href="/junecms/Public/Admin/easyui/themes/icon.css">
+<link rel="stylesheet" type="text/css" href="/junecms/Public/Admin/style/basic.css"> 
+<link rel="stylesheet" type="text/css" href="/junecms/Public/Admin/style/admin.css">
+<script type="text/javascript" src="/junecms/Public/Admin/js/nav.js"></script>
 <script type="text/javascript">
 	var url="<?php echo U('Model/modelData');?>",
-	updateUrl="/web/junecms/Admin/Nav/update"
+	updateUrl="/junecms/Admin/Nav/update"
 </script> 
 </head>
 <body>

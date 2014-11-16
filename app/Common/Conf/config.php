@@ -8,14 +8,17 @@ return array(
 		'DB_USER'=>'root',
 		'DB_PWD'=>'ABC201314',
 		'DB_PREFIX'=>'june_',
-		'DB_DSN'=>'mysql:host=localhost;dbname=junecms;charset=UTF-8',
+		'DB_DSN'=>'mysql:host=localhost;dbname=junecms;charset=utf8',
 		'DB_CHARSET'=>  'utf8',
 		
+		//设置可访问目录
+		'MODULE_ALLOW_LIST'=>array('Home','Admin'),
 		
 		//视图设置
 		'TMPL_TEMPLATE_SUFFIX'=>'.tpl',
 		//默认主题
 		'DEFAULT_THEME'=>'default',
+		
 		
 		//加载用户函数
 		'LOAD_EXT_FILE' => 'func.tool',

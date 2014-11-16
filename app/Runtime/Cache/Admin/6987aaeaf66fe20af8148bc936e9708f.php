@@ -4,20 +4,20 @@
 <meta charset="UTF-8">
 <title>添加栏目</title>
 </head>
-<script type="text/javascript" src="/web/junecms/Public/Admin/easyui/jquery.min.js"></script>
-<script type="text/javascript" src="/web/junecms/Public/Admin/easyui/jquery.easyui.min.js"></script>
-<link rel="stylesheet" type="text/css" href="/web/junecms/Public/Admin/easyui/locale/easyui-lang-zh_CN.js"> 
-<link rel="stylesheet" type="text/css" href="/web/junecms/Public/Admin/easyui/themes/default/easyui.css">   
-<link rel="stylesheet" type="text/css" href="/web/junecms/Public/Admin/easyui/themes/icon.css">
-<link rel="stylesheet" type="text/css" href="/web/junecms/Public/Admin/style/basic.css">
-<link rel="stylesheet" type="text/css" href="/web/junecms/Public/Admin/style/edit.css">
-<link rel="stylesheet" type="text/css" href="/web/junecms/Public/Admin/style/nav.css">
-<script type="text/javascript" src="/web/junecms/Public/Admin/js/edit.js"></script>
-<script type="text/javascript" src="/web/junecms/Public/Admin/js/jquery.validate.js"></script>
-<script type="text/javascript" src="/web/junecms/Public/Admin/js/nav_edit.js"></script>
+<script type="text/javascript" src="/junecms/Public/Admin/easyui/jquery.min.js"></script>
+<script type="text/javascript" src="/junecms/Public/Admin/easyui/jquery.easyui.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/junecms/Public/Admin/easyui/locale/easyui-lang-zh_CN.js"> 
+<link rel="stylesheet" type="text/css" href="/junecms/Public/Admin/easyui/themes/default/easyui.css">   
+<link rel="stylesheet" type="text/css" href="/junecms/Public/Admin/easyui/themes/icon.css">
+<link rel="stylesheet" type="text/css" href="/junecms/Public/Admin/style/basic.css">
+<link rel="stylesheet" type="text/css" href="/junecms/Public/Admin/style/edit.css">
+<link rel="stylesheet" type="text/css" href="/junecms/Public/Admin/style/nav.css">
+<script type="text/javascript" src="/junecms/Public/Admin/js/edit.js"></script>
+<script type="text/javascript" src="/junecms/Public/Admin/js/jquery.validate.js"></script>
+<script type="text/javascript" src="/junecms/Public/Admin/js/nav_edit.js"></script>
 <script type="text/javascript">
 	var	THINKPHP={
-		module:'/web/junecms/Admin',
+		module:'/junecms/Admin',
 		id:"<?php echo ($updateNav["id"]); ?>",
 	}
 </script> 

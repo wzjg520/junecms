@@ -3,8 +3,7 @@ namespace Admin\Controller;
 use Think\Controller;
 class ArticleController extends Controller{
 	public function index(){
-		$this->assign('position','文档列表');
-		
+		$this->assign('position','文档列表');		
 		$this->display();
 	}
 	//获得数据

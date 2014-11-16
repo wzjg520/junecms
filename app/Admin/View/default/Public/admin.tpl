@@ -37,8 +37,8 @@
 			</div>
 			<div title="导航管理">
 				<dl>
-					<dd><a href="?a=nav" target="in">导航</a></dd>	
-					<dd><a href="?a=article" target="in">文章</a></dd>
+					<dd><a href="{:U('Nav/index')}" target="in">导航</a></dd>	
+					<dd><a href="{:U('Article/index')}" target="in">文章</a></dd>
 					<dd><a href="###" target="in">评论审核</a></dd>		
 				</dl>
 			</div>
@@ -52,11 +52,11 @@
 			</div>
 			<div title="快捷入口">
 				<dl>
-					<dd><a href="?a=manage" target="in">管理员列表</a></dd>
-					<dd><a href="#" target="in">等级列表（待开发）</a></dd>
+					<dd><a href="{:U('Manage/index')}" target="in">管理员列表</a></dd>
+					<dd><a href="{:U('Level/levelList')}" target="in">等级列表（待开发）</a></dd>
 					<dd><a href="#" target="in">权限设定（待开发）</a></dd>
-					<dd><a href="?a=edit" target="in">模版编辑（待开发）</a></dd>
-					<dd><a href="?a=pic" target="in">图片管理</a></dd>		
+					<dd><a href="#" target="in">模版编辑（待开发）</a></dd>
+					<dd><a href="#" target="in">图片管理</a></dd>		
 				</dl>
 			</div>
 			<div title="网站目录结构">
